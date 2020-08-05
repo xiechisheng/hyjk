@@ -1,0 +1,21 @@
+*** Starting uWSGI 2.0.15-debian (64bit) on [Fri Jul 10 18:38:20 2020] ***
+compiled with version: 7.3.0 on 28 September 2018 15:41:15
+os: Linux-4.15.0-76-generic #86-Ubuntu SMP Fri Jan 17 17:24:28 UTC 2020
+nodename: user
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 16
+current working directory: /home/user/workspace/hyjk
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+dropping root privileges as early as possible
+chdir() to /home/user/workspace/hyjk
+your processes number limit is 256985
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+dropping root privileges after socket binding
+dropping root privileges after plugin initialization
+The -s/--socket option is missing and stdin is not a socket.
