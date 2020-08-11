@@ -27,7 +27,8 @@ urlpatterns = [
     path("api/user/query", UserApi.userInfoQuery, name="userInfoQuery"),
     path("api/user/delete", UserApi.userInfoDelete, name="userInfoDelete"),
 
-    path("api/rtsp/device/add", RtspDevice.rtspDeviceInfoAdd, name="userInfoDelete"),
+    path("api/rtsp/device/add", RtspDevice.rtspDeviceInfoAdd, name="rtspDeviceInfoAdd"),
+    path("api/rtsp/device/batch/add", RtspDevice.rtspDeviceInfoBatchAdd, name="rtspDeviceInfoBatchAdd"),
     path("api/rtsp/device/modify", RtspDevice.rtspDeviceInfoModify, name="rtspDeviceInfoModify"),
     path("api/rtsp/device/query", RtspDevice.rtspDeviceInfoQueryAll, name="rtspDeviceInfoQuery"),
     path("api/rtsp/device/delete", RtspDevice.rtspDeviceInfoDelete, name="rtspDeviceInfoDelete"),
